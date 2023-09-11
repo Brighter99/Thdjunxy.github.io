@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* 去除ul列表的小黑点 */
+    list-style: none;
+}
+
+a {
+    /* 连接默认为蓝色带下划线，修改格式 */
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    background: #fff;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    /*字体大小*/
+    color: #333;
+
+}
+.nav-box .btit{
+    margin-left: 20px;
+}
+.nav-box .nav {
+
+    display: flex;
+    /* flex布局使子元素水平排列 */
+    font-size: 16px;
+    color: #555;
+    margin-right: 20px;
+}
+
+.nav-box .nav li {
+    padding-left: 40px;
+}
+
+
+.nav-box .nav a:hover {
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #333;
+}
+
+.banner {
+    width: auto;
+    max-width: 100%;
+    background: url(../img/my\ banner\ .webp) no-repeat center center;
+    height: 450px;
+    margin: auto;
+
+}
+
+.introduce {
+    width: auto;
+    margin: 20px;
+    padding: 40px 0;
+}
+
+.introduce-tit {
+    padding-top: 25px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #444;
+}
+
+.introduce-main {
+    display: flex;
+    padding-top: 15px;
+}
+
+.introduce .L {
+    margin-right: 50px;
+    padding-top: 5px;
+}
+
+.introduce .L img {
+    border-radius: 3%;
+}
+
+
+.introduce-main .R .portrait{
+    display: flex;
+}
+.introduce-main .R .portrait .R-name{
+    padding-left: 30px;
+    font-weight: bold;
+    color: #333;
+    font-size: 17px;
+    padding-top: 5px;
+}
+.introduce-main .R .idcode1{
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+    padding-bottom: 20px;
+}.introduce-main .R .idcode2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 20px;
+}
+.introduce-main .R {
+    line-height: 35px;
+    font-weight: 500;
+    color: #666;
+    font-size: 20px;
+}
+.edu-box{
+    margin: 20px;
+    display: flex;
+}
+.edu-box .R{
+    margin-left: 40px;
+    line-height: 30px;
+    padding-top: 5px;
+    
+}
+.edu-box .R .tit{
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+
+}
+.edu-box .R .small{
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
+}
+.edu-box .R .time{
+    height: 40px;
+    line-height: 40px;
+    background :#333;
+    color:#fff;
+    font-size: 14px;
+    display: flex;
+    
+}
+.edu-box .R .time .icon{
+    width:40px;
+    height:40px;
+    background: url(../img/time.png) no-repeat center center;
+    background-size: 25px;
+    background-color: #333
+}
+.Habits
+{
+    width: auto;
+    margin-left: 20px;
+}
+.habit-tit
+{
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #444;
+}
+#top
+{
+    width:100%;
+    height:500px;
+    margin: 20px;
+}
+.pic{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.images
+{
+    width: 100%;
+    height: 100%;
+}
+.hide-content{
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    height:50px;
+    background-color: rgba(51,204,204,0.5);
+    transition: bottom .3s;
+}
+.hide-name{
+    padding: 15px;
+    color:#fff;
+    
+}
+.pic:hover .hide-content{
+    bottom: 0; 
+}
